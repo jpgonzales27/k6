@@ -1,6 +1,12 @@
 import { sleep } from "k6";
 import http from "k6/http";
 
+/**
+ * Stress test (Prueba de estres) - Maxima capacidad de usuarios y de requests
+ *
+ * Evalua los limites de el sistema y la estabilidad en condiciones extremas
+ */
+
 export const options = {
   stages: [
     {

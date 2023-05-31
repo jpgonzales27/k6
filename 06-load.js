@@ -1,6 +1,13 @@
 import { sleep } from "k6";
 import http from "k6/http";
 
+/**
+ * load test (Prueba de carga) - Muchos usuarios y spikes esporadicos
+ *
+ * Evalua el rendimiento de el sistema en terminos de usuarios concurrentes
+ * o solicitudes por segundo
+ */
+
 export const options = {
   stages: [
     {

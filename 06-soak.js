@@ -1,6 +1,13 @@
 import { sleep } from "k6";
 import http from "k6/http";
 
+/**
+ * Soak test (Prueba de resistencia) - Soportar muchos usuarios por largos periodos de tiempo
+ *
+ * informa sobre fiabilidad y el rendimiento de el sistema durante un periodo
+ * de tiempo prolongado
+ */
+
 export const options = {
   stages: [
     {
