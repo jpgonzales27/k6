@@ -1,6 +1,6 @@
 import http from "k6/http";
-import * as general_data from "./general";
-import * as auth_data from "./authentication";
+import * as general_data from "./../resources/services/general";
+import * as auth_data from "./../resources/services/authentication";
 
 const HEADERS = {
   headers: auth_data.headers,
