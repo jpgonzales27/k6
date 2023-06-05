@@ -1,4 +1,5 @@
 k6 run nombreTest.js
+k6 run nombreTest.js --vus 2 --duration 10s
 
 k6 run --out json=output.json nombreTest.js
 

@@ -1,0 +1,23 @@
+
+  "data": [
+    {
+      "id": 1,
+      "name": "France - Mainland",
+      "desc": "some description"
+    },
+    {
+      "id": 2,
+      "name": "Gibraltar",
+      "desc": "some description"
+    },
+    {
+      "id": 3,
+      "name": "Malta",
+      "desc": "some description"
+    }
+  ],
+  "error": {
+    "message": "",
+    "status": 0
+  }
+}
